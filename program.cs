@@ -12,7 +12,7 @@
         {
             _client = new DiscordSocketClient();
 
-            await _client.LoginAsync(TokenType.Bot, "MzUxMzgwNDYyODQ3MTMxNjU5.DIRwEg.06vjRQg9HvtHIL08BSq3Xuesbek");
+            await _client.LoginAsync(TokenType.Bot, "INSERT BOT TOKEN HERE");
 
             await _client.StartAsync();
 
